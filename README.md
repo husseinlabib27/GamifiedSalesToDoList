@@ -17,7 +17,7 @@ A simple, gamified to-do list designed to help sales professionals track their d
 ## Demo
 
 You can view the live project here:  
-[Live Demo](https://husseinlabib27.github.io/GamifiedToDoList/)
+[Live Demo](https://husseinlabib27.github.io/GamifiedSalesToDoList/)
 
 How It Works
 1-Select a task from the dropdown menu.
