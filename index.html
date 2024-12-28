@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales Gamified To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sales Gamified To-Do List</h1>
+    <p>Track tasks, earn points, and hit your sales goals!</p>
+  </header>
+  <main>
+    <div class="task-input">
+      <select id="taskType">
+        <option value="email">Send Cold Email (1 point)</option>
+        <option value="call">Make Cold Call (3 points)</option>
+        <option value="demo">Schedule Demo (10 points)</option>
+      </select>
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+    <div class="scoreboard">
+      <h2>Scoreboard</h2>
+      <p>Points: <span id="points">0</span></p>
+      <p>Level: <span id="level">Rookie</span></p>
+      <p>Daily Goal: <span id="dailyGoalDisplay">100</span> points</p>
+      <p>Weekly Goal: <span id="weeklyGoalDisplay">500</span> points</p>
+    </div>
+    <div class="progress-container">
+      <div id="progress" class="progress-bar"></div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
